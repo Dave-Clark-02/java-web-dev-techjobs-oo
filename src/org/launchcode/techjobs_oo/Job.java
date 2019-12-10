@@ -53,14 +53,14 @@ public class Job {
             run += "Location: " + location.getValue() + "\n";
         }
         if (positionType.getValue().equals("")) {
-            run += "PositionType: Data not avaliable" + "\n";
+            run += "Position Type: Data not avaliable" + "\n";
         } else{
-            run += "PositionType: " + positionType.getValue() + "\n";
+            run += "Position Type: " + positionType.getValue() + "\n";
         }
         if (coreCompetency.getValue().equals("")) {
-            run += "CoreCompetency: Data not available" + "\n";
+            run += "Core Competency: Data not available" + "\n";
         } else{
-            run += "CoreCompetency: " + coreCompetency.getValue() + "\n";
+            run += "Core Competency: " + coreCompetency.getValue() + "\n";
         }
         return run;
 //                "ID: " + id + "\n" +
